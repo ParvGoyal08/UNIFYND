@@ -129,6 +129,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  -ms-flex-align: left;
 
   background-color: rgb(255, 255, 255);
   padding: 5%;
