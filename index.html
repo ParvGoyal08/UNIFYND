@@ -11,44 +11,48 @@
     <link rel="stylesheet" href="unifynd.css" />
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">UNIFYND</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <form class="d-flex">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search..."
-                  aria-label="Search"
-                  style="width: 500px"
-                />
-                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-              </form>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-          </ul>
+    <!-- --------NAVBAR--------- -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">UNIFYND</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search..."
+                    aria-label="Search"
+                    style="width: 500px"
+                  />
+                  <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
+
+    <!--------INFO------ -->
 
     <section>
       <div class="info">
@@ -61,66 +65,86 @@
           <button class="btn btn-light">Find College</button>
         </div>
       </div>
+    </section>
 
-    </section>
-<!--       Tools -->
+    <!------Tools------>
+
     <section>
-        <div class="Tools">
-        
-            <div class="ToolOption">
-                <div class="ToolOption-img" style="background-image: url('box6_image.jpg');"></div>
-                Find Colleges
-            </div>
-    
-            <div class="ToolOption">
-                <div class="ToolOption-img" style="background-image: url('box6_image.jpg');"></div>
-            </div>
-    
-            <div class="ToolOption">
-                <div class="ToolOption-img" style="background-image: url('box6_image.jpg');"></div>
-            </div>
-    
-            <div class="ToolOption">
-                <div class="ToolOption-img" style="background-image: url('box6_image.jpg');"></div>
-          </div>
+      <div class="Tools">
+        <div class="ToolOption">
+          <div
+            class="ToolOption-img"
+            style="background-image: url('box6_image.jpg')"
+          ></div>
+          Find Colleges
         </div>
+
+        <div class="ToolOption">
+          <div
+            class="ToolOption-img"
+            style="background-image: url('box6_image.jpg')"
+          ></div>
+        </div>
+
+        <div class="ToolOption">
+          <div
+            class="ToolOption-img"
+            style="background-image: url('box6_image.jpg')"
+          ></div>
+        </div>
+
+        <div class="ToolOption">
+          <div
+            class="ToolOption-img"
+            style="background-image: url('box6_image.jpg')"
+          ></div>
+        </div>
+      </div>
     </section>
+
+    <!---------RANKINGS----------->
 
     <section id="Rankings&Notes">
-        <div class="rankings-Note">
-            
-            <div class="rankings-left">
+      <div class="rankings-Note">
+        <div class="rankings-left">
+          <div class="worldranking">
+            <div
+              class="rankingbox"
+              style="background-image: url('qsr.jpg')"
+            ></div>
+            <div
+              class="rankingbox"
+              style="background-image: url('THERankings.jpg')"
+            ></div>
+          </div>
 
-                <div class="worldranking">
-                    <div class="rankingbox" style="background-image: url('qsr.jpg');"></div>
-                    <div class="rankingbox" style="background-image: url('THERankings.jpg');"></div>
-                </div>
-
-                <div class="worldranking">
-
-                </div>
-
-
-            </div>
-
-            
-        
-
-            <div class="notes">
-                <h2>Add Note</h2>
-                <form>
-                    <div class="mb-3">
-                        <!-- <label for="notesInput" class="form-label">Add Notes</label> -->
-                        <textarea id="note" class="form-control" id="notesInput" rows="8" style="resize: vertical; overflow-y: scroll;"></textarea>
-                    </div>
-                    <button type="submit" id="notebtn" class="btn btn-success">Save Note</button>
-                    <button type="submit" id="notebtn" class="btn btn-primary">View All Notes</button>
-                </form>
-            </div>
-            
-
+          <div class="worldranking"></div>
         </div>
-    </section>
 
-    </body>
+        <!-----------NOTES---------- -->
+
+        <div class="notes">
+          <h2>Add Note</h2>
+          <form>
+            <div class="mb3">
+              <!-- <label for="notesInput" class="form-label">Add Notes</label> -->
+              <textarea
+                id="note"
+                class="form-control"
+                id="notesInput"
+                rows="8"
+                style="resize: vertical; overflow-y: scroll"
+              ></textarea>
+            </div>
+            <button type="submit" id="notebtn" class="btn btn-success">
+              Save Note
+            </button>
+            <button type="submit" id="notebtn" class="btn btn-primary">
+              View All Notes
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
