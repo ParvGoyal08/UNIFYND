@@ -1,0 +1,14 @@
+.info {
+  margin-top: 10px;
+  font-size: 20px;
+  height: 400px;
+  background-color: black;
+}
+
+.buttons {
+  background-color: white;
+}
+
+.btn-light {
+  background-color: white;
+}
