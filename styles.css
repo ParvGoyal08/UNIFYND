@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica;
+    padding: 0;
+    border: border-box; 
+    background: #ffffff;
+}
+
 .info {
   margin-top: 10px;
   font-size: 20px;
@@ -12,3 +20,52 @@
 .btn-light {
   background-color: white;
 }
+
+
+.Tools{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: scroll;
+
+    margin-left: 8%;
+    margin-right: 12%;
+    width: 85%;
+    height: 20rem;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+
+}
+
+.ToolOption{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    color: #000000;
+    outline: 2px #F0F0F0;
+    /*  */
+    width:20%;
+    height: 18rem;
+    margin: 1rem,1rem;
+    border: #312525;
+}
+
+.ToolOption-img{
+    height: 10rem;
+    width: 100%;
+    align-self: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ToolOption-title{
+    color: #000000;
+    font-weight: 400;
+}
+
+
+
