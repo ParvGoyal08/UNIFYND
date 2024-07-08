@@ -43,7 +43,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
     justify-content: space-evenly;
     color: #000000;
     outline: 2px #F0F0F0;
