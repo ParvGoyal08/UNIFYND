@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    font-family: Arial, Helvetica;
-    padding: 0;
-    border: border-box; 
-/*     background: #ffffff; */
+* {
+  margin: 0;
+  font-family: Arial, Helvetica;
+  padding: 0;
+  border: border-box;
+  /*     background: #ffffff; */
 }
 
 .info {
@@ -22,150 +22,146 @@
   background-color: white;
 }
 
-#notebtn{
-    margin:0 15px;
-    border-radius: 15px;
+#notebtn {
+  margin-bottom: 10px;
+  margin-top: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
 }
 
+.Tools {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* overflow: scroll; */
 
-.Tools{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* overflow: scroll; */
-
-    margin-left: 5%;
-    margin-right: 12%;
-    width: 85%;
-    height: 20rem;
-    background-color: #e2e1e1;
-    border-radius: 15px;
-    margin-top: 1rem;
-
+  margin-left: 5%;
+  margin-right: 12%;
+  width: 85%;
+  height: 20rem;
+  background-color: #e2e1e1;
+  border-radius: 15px;
+  margin-top: 1rem;
 }
 
-.ToolOption{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #FFFFFF;
-    outline: 2px #000000;
-    /*  */
-    width:20%;
-    height: 18rem;
-    border: #312525;
-    margin-bottom: 2 rem;
-    border-width: 2px;
-    border-radius: 20px;
-    text-align: initial;
-    
-
+.ToolOption {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  outline: 2px #000000;
+  /*  */
+  width: 20%;
+  height: 18rem;
+  border: #312525;
+  margin-bottom: 2 rem;
+  border-width: 2px;
+  border-radius: 20px;
+  text-align: initial;
 }
 
-.ToolOption-img{
-    height: 10rem;
-    width: 100%;
-    align-self: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
+.ToolOption-img {
+  height: 10rem;
+  width: 100%;
+  align-self: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.ToolOption-title{
-    color: #000000;
-    font-weight: 400;
-    text-align: initial;
+.ToolOption-title {
+  color: #000000;
+  font-weight: 400;
+  text-align: initial;
 }
 
-.rankings-Note{
+.rankings-Note {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: left; */
+  align-items: initial;
+  /* justify-content: center; */
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* justify-content: left; */
-    align-items: initial;
-    /* justify-content: center; */
-
-    width:100%;
-    height: 45rem;
-    margin-top: 2rem;
+  width: 100%;
+  height: 45rem;
+  margin-top: 2rem;
 }
 
-.rankings-left{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+.rankings-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 
-    width: 65%;
-    height: 100%;
+  width: 65%;
+  height: 100%;
 }
 
-.worldranking{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.worldranking {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 
-    background-color: rgb(255, 255, 255);
-    padding: 5%;
-    margin: 5%;
+  background-color: rgb(255, 255, 255);
+  padding: 5%;
+  margin: 5%;
 
-    text-align: initial;
-    font-weight: bold;
-    font-size: 35px;
-    /* padding-top: 10%; */
-    width: 100%;
-    height: 40%;
-    border: solid #b3b3b3 ;
-    border-radius: 15px;
+  text-align: initial;
+  font-weight: bold;
+  font-size: 35px;
+  /* padding-top: 10%; */
+  width: 100%;
+  height: 40%;
+  border: solid #b3b3b3;
+  border-radius: 15px;
 }
-
 
 /* .rankingbox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
 
-    width:40%;
-    height:100%;
-    background-color: aqua;
-    background-size: contain;
+  width:40%;
+  height:100%;
+  background-color: aqua;
+  background-size: contain;
 } */
 
 .rankingbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 40%;
-    height: 100%;
-    background-size: contain; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    border: solid rgb(242, 255, 0);
-    background-color: #f3a108;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid rgb(242, 255, 0);
+  background-color: #f3a108;
 }
 
 /* .rankingbox-link{
-    display: block;
+  display: block;
 } */
-  
 
+#note {
+  height: 178px;
+  font-size: 20px;
+}
 
 .notes {
-    margin-top: 10%;
-
-    color: black;
-    padding-top: 10px;
-    text-align: center;
-    width: 34%;
-    height: 20rem;
-    background-color: #f0f0f0;
-    border-radius: 30px;
-    border-width: 1px;
-    border: solid rgb(216, 216, 216);
-  }
-
-
+  margin-top: 3%;
+  color: black;
+  padding-top: 10px;
+  text-align: center;
+  width: 34%;
+  height: 292px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  border: solid #b3b3b3;
+}
