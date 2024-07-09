@@ -26,12 +26,12 @@
   font-size: 29px;
 }
 
-.info {
-  margin-top: 10px;
+.banner {
+  /* margin-top: 10px; */
   font-size: 20px;
   height: 400px;
-  background-color: black;
-  margin-bottom: 1rem;
+  background-color: rgb(62, 105, 125);
+  margin-bottom: 16px;
 }
 
 .buttons {
